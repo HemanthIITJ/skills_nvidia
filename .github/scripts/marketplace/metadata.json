@@ -2317,18 +2317,6 @@
       }
     },
     {
-      "path": "skills/vss-generate-video-report",
-      "name": "vss-generate-video-report",
-      "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts, or ad-hoc Q&A.",
-      "metadata": {
-        "product.primary": "Video Search and Summarization (VSS)",
-        "classification.category.primary": "ai_and_machine_learning",
-        "catalog.subdomain": "vision-ai",
-        "audience": "application_developer,ai_engineer,ml_engineer,solutions_architect",
-        "discovery.activity_tags": "generate,synthesize,summarize,inference,extract"
-      }
-    },
-    {
       "path": "skills/vss-manage-alerts",
       "name": "vss-manage-alerts",
       "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
@@ -2362,18 +2350,6 @@
         "catalog.subdomain": "vision-ai",
         "audience": "application_developer,ai_engineer,platform_engineer,production_operator",
         "discovery.activity_tags": "monitor,inspect,extract,operate"
-      }
-    },
-    {
-      "path": "skills/vss-search-archive",
-      "name": "vss-search-archive",
-      "description": "Use to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
-      "metadata": {
-        "product.primary": "Video Search and Summarization (VSS)",
-        "classification.category.primary": "ai_and_machine_learning",
-        "catalog.subdomain": "vision-ai",
-        "audience": "application_developer,ai_engineer,ml_engineer,solutions_architect,developer",
-        "discovery.activity_tags": "inference,extract,integrate,operate,deploy"
       }
     },
     {
